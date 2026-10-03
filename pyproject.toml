@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-gateway-control-plane"
+version = "0.1.0"
+description = "Provider-neutral LLM routing, budget and reliability control plane"
+requires-python = ">=3.10"
+authors = [{name = "SunZhengjun"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]
